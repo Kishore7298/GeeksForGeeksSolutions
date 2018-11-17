@@ -25,8 +25,7 @@ Output
 2
 1 2
 ```
-
-Solution:
+### Solution:
 
 Approch1:
 ```C++
