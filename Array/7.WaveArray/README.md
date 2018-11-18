@@ -55,3 +55,34 @@ int main()
 }
 ```
 #### Approach2(efficient):
+##### Note: This works with O(n) but applies only if the wave sort needen't be in sorted order.
+```c++
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
+void waveSort(int a[], int n){
+    for(int i=0;i<n; i+=2){
+        if(i>0 && a[i-1]>a[i])
+            swap(a[i-1],a[i]);
+        if(i<n-1 && a[i+1]>a[i])
+            swap(a[i+1],a[i]);
+    }
+    for(int j=0;j<n;j++){
+        printf("%d ",a[j]);
+    }
+    printf("\n");
+}
+int main()
+ {
+	int test, n;
+	scanf("%d",&test);
+	for(int i=0;i<test;i++){
+	    scanf("%d",&n);
+	    int a[n];
+	    for(int j=0;j<n;j++){
+	        scanf("%d",&a[j]);
+	    }
+	    waveSort(a,n);
+	}
+	return 0;
+}
