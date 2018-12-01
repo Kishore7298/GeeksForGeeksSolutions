@@ -41,7 +41,7 @@ void printAlternate(char s1[], char s2[]){
         }
     }
     if(j<strlen(s2)){
-        for(;j<strlen(s2);i++){
+        for(;j<strlen(s2);j++){
             cout<<s2[j];
         }
     }
