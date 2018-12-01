@@ -30,34 +30,30 @@ adbecf
 
 using namespace std;
 
-void printAlternate(char s1[], char s2[]){
+void printAlternate(string s1, string s2){
     int i=0,j=0;
-    while(i<strlen(s1) && j<strlen(s2)){
+    while(i<s1.length() && j<s2.length()){
         cout<<s1[i++]<<s2[j++];
     }
-    if(i<strlen(s1)){
-        for(;i<strlen(s1);i++){
+        for(;i<s1.length();i++){
             cout<<s1[i];
         }
-    }
-    if(j<strlen(s2)){
-        for(;j<strlen(s2);j++){
+        for(;j<s2.length();j++){
             cout<<s2[j];
         }
-    }
-    //printf("\n");
+   // printf("\n");
     
 }
 
 int main()
  {
 	int test;
-	char s1[10000],s2[10000];
+	string s1,s2;
 	scanf("%d",&test);
 	for(int i=0;i<test;i++){
-	    cin>>s1;
-	    cin>>s2;
+	    cin>>s1>>s2;
 	    printAlternate(s1,s2);
+	    printf("\n");
 	}
 	return 0;
 }
