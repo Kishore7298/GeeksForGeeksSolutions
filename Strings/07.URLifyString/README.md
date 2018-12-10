@@ -66,7 +66,7 @@ int main()
 
 ```
 
-##### Approach 2:
+##### Approach 2:(Not working)
 ```c++
 #include<iostream>
 using namespace std;
