@@ -1,4 +1,4 @@
-##  Extract Maximum 
+#  Extract Maximum 
 
 You have been given an alphanumeric string S, extract maximum numeric value from that string. Alphabets will only be in lower case.
 
