@@ -1,0 +1,27 @@
+##  Multiply two strings 
+Given two numbers as stings s1 and s2 your task is to multiply them. You are required to complete the function multiplyStrings which takes two strings s1 and s2 as its only argument and returns their product as strings.
+
+#### Input:
+The first line of input contains an integer T denoting the no of test cases. Then T test cases follow . Each test case contains two strings s1 and s2 .
+
+#### Output:
+For each test case in a new line the output will be a string denoting the product of the two strings s1 and s2.
+```
+Constraints:
+1 <= T <= 100
+1 <= length of s1 and s2 <= 103
+
+Example(To be used only for expected output) :
+Input:
+2
+33 2
+11 23
+Output:
+66
+253
+```
+<b>Note:</b>The Input/Ouput format and Example given are used for system's internal purpose, and should be used by a user for Expected Output only. As it is a function problem, hence a user should not read any input from stdin/console. The task is to complete the function specified, and not to write the full code.
+#### Solution:
+```c++
+
+```
