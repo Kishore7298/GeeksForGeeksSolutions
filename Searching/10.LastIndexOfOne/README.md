@@ -6,10 +6,8 @@ First line of the input contains the number of test cases T, T lines follow each
 
 #### Output:
 Corresponding to every test case, output the last index of 1. If 1 is not present, print "-1" (without quotes).
-```
+
 #### Solution:
-
-
 ```
 Constraints:
 1 <= T <= 110
